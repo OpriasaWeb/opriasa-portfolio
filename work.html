@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title page -->
+  <title>OPRIASA - Portfolio</title>
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="./public/styles.css">
+
+  <link rel="shortcut icon" href="./images/portfolio_icon.jpg" type="image/x-icon">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Swiper JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">OpriasaJWeb</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">01. Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary text-white" href="#">02. Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./projects.html">03. Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contacts.html">04. Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About section -->
+  <div class="container">
+    <div class="row">
+      <div class="work">
+        <h2><span>02.</span> Work experiences</h2>
+        <div class="first-work">
+          <h4><i class='bx bx-dots-horizontal-rounded' ></i> Learning Support Aide - IT Department</h4>
+          <p>Database | Excel</p>
+          <p>I work in Department of Education Philippines in Parañaque National High School. I was assigned in IT Department and my primary task each and every day of work is database excel. You may visit my LinkedIn account so that you may be able to see clearly my certificate of employment.</p>
+          <p>February 2021 to June 2021 (5 months)</p>
+          <!-- LSA CoE modal -->
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#LSA">
+            Certificate of Employment
+          </button>
+        </div>
+        <div class="second-work">
+          <h4><i class='bx bx-dots-horizontal-rounded' ></i> Software Engineer Intern</h4>
+          <p>PHP | MySQL | Bootstrap | JS | CSS | HTML | Hostinger</p>
+          <p>I took my internship at Bit Create IT Solutions. Throughout my internship as software engineer intern, I developed a real-estate website to be used by Affluent Properties Leasing and Sales (<a href="https://affluentproperties.ph/" target="_blank">affluentproperties.ph</a>). I experienced working independently for the rest of this project and 1 month before the end of my internship, I work alongside with new interns for the upcoming project in the company where my part is frontend development. You may visit my LinkedIn account so that you may be able to see clearly my certificate of employment.</p>
+          <p>September 2022 to December 2022 (600 hours)</p>
+          <!-- SEI CoC modal -->
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#SEI">
+            Certificate of Completion
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="vector-project">
+    <div class="vector">
+      <img src="./images/Work Experiences.png" class="" alt="">
+    </div>
+  </div> -->
+
+  
+
+  <!-- Certificate of Employment -->
+  <div class="modal fade" id="LSA" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="">LSA - Certificate of Employment</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./images/LSA CERTIFICATION.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Certificate of Completion -->
+  <div class="modal fade" id="SEI" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="">SE Intern - Certificate of Completion</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="./images/Certificate of Completion - Opriasa.PNG" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Certifications coding -->
+  <div class="container">
+    <div class="accordion" id="accordionExample">
+      <div class="certificates_made">
+        <h2>My certificates</h2>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Responsive Web Design certificate
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <img src="./images/Responsive Web Design Certification.jpg" class="img-fluid" alt="Responsive Web Design certificate">
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            JavaScript Data Structures and Algorithms certification
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <img src="./images/Javascript Certification.jpg" class="img-fluid" alt="JavaScript Data Structures and Algorithms certification">
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Backend Development and API certification
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <img src="./images/Backend Development and API certificate.PNG" class="img-fluid" alt="Backend Development and API certification">
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            PHP Certification
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <img src="./images/PHP Certificate.jpg" class="img-fluid" alt="PHP Certification">
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            SQL Certification
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <img src="./images/SQL Certificate SoloLearn.png" class="img-fluid" alt="SQL Certification">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <!-- Certifications coding -->
+  
+
+
+
+  <!-- Local JS -->
+  <script src="./js/index.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  <!-- Boxicons -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
