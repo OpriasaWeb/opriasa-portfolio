@@ -1,0 +1,225 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none !important;
+  color: black;
+}
+
+/* Index */
+.container-fluid{
+  /* border: 1px solid black; */
+  margin: 1.2rem;
+}
+
+.container{
+  /* border: 1px solid black; */
+  margin-top: 0.3rem;
+}
+
+.personal-image{
+  width: 50%;
+  margin-left: 25%;
+  padding: 2rem 0 2rem 0;
+}
+
+.personal-image img{
+  border-radius: 20%;
+}
+
+.personal, .cv, .media-icons{
+  padding: 2rem;
+}
+
+.media-icons{
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+  margin-bottom: 2rem;
+}
+
+.media-icons a{
+  text-decoration: none;
+  color: black;
+}
+
+span{
+  font-size:1rem;
+}
+
+/* About */
+.about{
+  /* border: 1px solid black; */
+  margin-left: 2rem;
+}
+
+.about-message{
+  /* border: 1px solid black; */
+  padding: 1rem 5rem 1rem 5rem;
+}
+
+.techs{
+  font-size: 1.5rem;
+}
+/* About */
+
+/* Icons medias */
+.bxl-linkedin-square{
+  color: #0e76a8;
+}
+
+.bxl-youtube{
+  color: #FF0000;
+}
+
+/* Icons medias */
+
+/* Index */
+
+/* Work experiences */
+.work{
+  /* border: 1px solid black; */
+  padding-top: 3rem;
+}
+
+.work .first-work{
+  margin: 2rem;
+}
+
+.work .second-work{
+  margin: 2rem;
+}
+
+
+
+
+/* Work experiences */
+
+/* Contacts */
+.contact{
+  /* border: 1px solid black; */
+  padding-top: 5rem;
+  width: 250px !important;
+  margin: auto;
+}
+/* Contacts */
+
+
+/* Projects */
+.project-container{
+  /* border: 1px solid black; */
+  margin: 2rem 0 0 0;
+}
+
+.projects{
+  border: 1px solid black;
+  margin: auto;
+}
+
+.swiper {
+  padding: 1rem 0 5rem;
+  overflow: hidden;
+  border: 1px solid black;
+  width: 100%;
+  height: 70%;
+}
+
+.swiper-slide{
+  /* border: 1px solid black; */
+  width: 190px;
+  height: 100%;
+  /* padding: .5rem .5rem 1.5rem; */
+  border-radius: 1rem;
+  margin: 0 auto;
+  transition: .4s;
+}
+
+.vector{
+  /* border: 1px solid black; */
+  height: 70%;
+}
+
+.section__title{
+  color: #ffffff;
+}
+
+.popular__container{
+  padding: 1rem 0 5rem;
+  overflow: hidden;
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 60%;
+  margin: auto;
+}
+
+.swipe-guide{
+  margin: 2rem auto;
+}
+
+.popular__card{
+  /* border: 1px solid black; */
+  max-width: 220px;
+  height: 100%;
+  /* padding: .5rem .5rem 1.5rem; */
+  border-radius: 1rem;
+  transition: .4s;
+}
+
+.popular__img{
+  width: 100%;
+  height: 50%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.popular__data{
+  padding: 0 1rem 0 .5rem;
+  color: rgb(62, 59, 59);
+  
+}
+
+.popular_price{
+  font-size: 1rem;
+}
+
+.popular_price span{
+  color: var(--color-two);
+
+}
+
+.popular__title{
+  font-size: 1rem;
+  margin-bottom: .75rem;
+
+}
+
+.popular_description{
+  font-size: .8rem;
+}
+
+
+.more-properties{
+  /* border: 1px solid black; */
+  float: right;
+}
+
+.horizontal__part .popular_details{
+  float: right;
+
+}
+
+.accordion{
+  margin: 3rem 0 3rem 0;
+}
+
+.certificates_made{
+  margin: 0 0 2rem 0;
+}
+
+/* Projects */
+/* ------------------------------------------------------------------------------- */
+
+
+
