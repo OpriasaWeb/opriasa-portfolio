@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title page -->
+  <title>OPRIASA - Portfolio</title>
+
+  <!-- Local CSS -->
+  <link rel="stylesheet" href="./public/styles.css">
+
+  <link rel="shortcut icon" href="./images/portfolio_icon.jpg" type="image/x-icon">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Swiper JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">OpriasaJWeb</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="nav justify-content-end">
+          <li class="nav-item ">
+            <a class="nav-link text-dark" href="./index.html">01. Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link btn btn-primary text-white" href="./school.html">02. Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="./work.html">03. Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="./projects.html">04. Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="./contacts.html">05. Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About section -->
+  <div class="container">
+    <div class="row">
+      <div class="work">
+        <h2><span>02.</span> Education</h2>
+        <div class="college">
+          <h4><i class='bx bx-dots-horizontal-rounded' ></i> College </h4>
+          <p>Olivarez College Parañaque - Bachelor of Science in Information Technology (BSIT)</p>
+          <p>2018 - Present</p>
+        </div>
+        <div class="shs">
+          <h4><i class='bx bx-dots-horizontal-rounded' ></i> Senior High School </h4>
+          <p>University of Perpetual Help System Dalta Las Piñas - Information and Communications Technology (ICT)</p>
+          <p>2016 - 2018</p>
+        </div>
+        <div class="jhs">
+          <h4><i class='bx bx-dots-horizontal-rounded' ></i> Junior High School </h4>
+          <p>PNHS Don Galo High School</p>
+          <p>2012 - 2016</p>
+        </div>
+        <div class="elementary">
+          <h4><i class='bx bx-dots-horizontal-rounded' ></i> Kindergarten to Elementary</h4>
+          <p>Camp Claudio Elementary School</p>
+          <p>2006 - 2012</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Certifications coding -->
+  <div class="container">
+    <div class="accordion" id="accordionExample">
+      <div class="certificates_made">
+        <h2>Honors and Awards</h2>
+      </div>
+      <div class="awards mb-1">
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#Capstone">
+          Best in Capstone Research Project
+        </button>
+      </div>
+      <div class="awards mb-1">
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#DL">
+          Dean's List Certificate
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Certifications coding -->
+
+  <!-- Certificate of Employment -->
+  <div class="modal fade" id="Capstone" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="">Best in Capstone Research Project</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Computer Studies Department - March 2022</p>
+          <p>ParkSyOC: Development of Digital Conventional Vehicle Parking System in Olivarez College Parañaque</p>
+          <img src="./images/Research Capstone Certification.png" class="img-fluid" alt="Research Capstone Certification">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Certificate of Completion -->
+  <div class="modal fade" id="DL" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="">Dean's List Certificate</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Dean Department - September 2022</p>
+          <p>I was awarded as Dean's Lister for the academic year 2021-2022 / 2nd semester with a 1.43 GWA.</p>
+          <img src="./images/Dean's Lister - Opriasa.jpg" class="img-fluid" alt="Dean's Lister - Opriasa">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+  <!-- Local JS -->
+  <script src="./js/index.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  <!-- Boxicons -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+</html>
